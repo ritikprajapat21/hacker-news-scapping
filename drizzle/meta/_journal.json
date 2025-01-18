@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1737204239988,
+      "tag": "0000_petite_silver_sable",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1737206338210,
+      "tag": "0001_large_mastermind",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1737208618883,
+      "tag": "0002_round_dragon_lord",
+      "breakpoints": true
+    }
+  ]
+}

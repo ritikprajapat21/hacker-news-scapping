@@ -1,0 +1,1 @@
+ALTER TABLE `news` ADD `title` varchar(255);

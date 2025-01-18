@@ -1,0 +1,27 @@
+{
+	"name": "frontpage",
+	"module": "index.ts",
+	"type": "module",
+	"scripts": {
+		"start": "bun --hot index.ts",
+		"generate": "drizzle-kit generate",
+		"migrate": "bun ./db/migrate.ts",
+		"seed": "bun ./db/seed.ts"
+	},
+	"devDependencies": {
+		"@types/bun": "latest",
+		"@types/express": "^5.0.0",
+		"drizzle-kit": "^0.30.2"
+	},
+	"peerDependencies": {
+		"typescript": "^5.0.0"
+	},
+	"dependencies": {
+		"axios": "^1.7.9",
+		"cheerio": "^1.0.0",
+		"drizzle-orm": "^0.38.4",
+		"express": "^4.21.2",
+		"mysql2": "^3.12.0",
+		"socket.io": "^4.8.1"
+	}
+}
