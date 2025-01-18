@@ -1,6 +1,19 @@
-# frontpage
+# HackerNews Scapper
+Scrappes news from hacker news and store them in database in real time.
 
-To install dependencies:
+## Tech Stack
+- Express.js
+- Socket.io
+- Drizzle
+- Bun
+
+__NOTE:__ This project uses bun as runtime so please use bun to run the application on localhost
+
+To run locally:
+
+```bash
+git clone https://github.com/ritikprajapat21/hacker-news-scapping.git
+```
 
 ```bash
 bun install
