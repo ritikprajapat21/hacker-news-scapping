@@ -16,16 +16,16 @@ __NOTE:__ This project uses Bun as runtime so please use Bun to run the applicat
 To run locally:
 
 ```bash
-git clone https://github.com/ritikprajapat21/hacker-news-scapping.git
-cd hacker-news-scapping
+git clone https://github.com/ritikprajapat21/hacker-news-scrapping.git
+cd hacker-news-scrapping
 ```
 
 ```bash
 bun install
 ```
-Use .env.example file to setup the environment variables and run the application.
+Use .env.example file to set up the environment variables and run the application.
 
-Before running for first time migrate and seed the database:
+Before running for the first time migrate and seed the database:
 ```bash
 bun run migrate
 bun run seed
