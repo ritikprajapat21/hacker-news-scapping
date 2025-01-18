@@ -24,6 +24,12 @@ cd hacker-news-scapping
 bun install
 ```
 
+Before running for first time migrate and seed the database:
+```bash
+bun run migrate
+bun run seed
+```
+
 To run:
 
 ```bash
