@@ -23,6 +23,7 @@ cd hacker-news-scapping
 ```bash
 bun install
 ```
+Use .env.example file to setup the environment variables and run the application.
 
 Before running for first time migrate and seed the database:
 ```bash

@@ -53,10 +53,13 @@ io.on("connection", async (socket) => {
 
   socket.emit("initial", { count });
 
-  setInterval(() => {
-    console.log("Scrapping new data");
-    scrapeNews(socket);
-  }, 60 * 1000);
+  setInterval(
+    () => {
+      console.log("Scrapping new data");
+      scrapeNews(socket);
+    },
+    5 * 60 * 1000,
+  );
 
   socket.on("disconnect", () => {
     console.log("User disconnected");
