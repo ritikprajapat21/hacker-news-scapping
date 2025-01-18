@@ -13,6 +13,11 @@ https://github.com/user-attachments/assets/53bedeed-0b5e-4f99-aa43-068e29083b7e
 
 __NOTE:__ This project uses Bun as runtime so please use Bun to run the application on localhost.
 
+To install bun:
+```bash
+npm install -g bun
+```
+
 To run locally:
 
 ```bash
@@ -35,6 +40,11 @@ To run:
 
 ```bash
 bun run index.ts
+```
+
+To view tuples:
+```bash
+bunx drizzle-kit studio
 ```
 
 This project was created using `bun init` in bun v1.1.42. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
